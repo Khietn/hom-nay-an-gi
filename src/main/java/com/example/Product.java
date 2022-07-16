@@ -1,4 +1,6 @@
-package com.example.demo;
+package com.example;
+
+import java.util.ArrayList;
 
 import javax.persistence.*;
 
@@ -25,7 +27,6 @@ public class Product {
 
 	private Integer id;
 	private String name;
-
 	public Product() {
 	}
 }
