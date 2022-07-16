@@ -1,11 +1,13 @@
-package com.example.demo;
+package com.example;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
-@Service
+@Component
 public class ProductService {
 	
 	@Autowired
